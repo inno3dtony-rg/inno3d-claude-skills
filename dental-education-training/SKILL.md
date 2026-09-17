@@ -1,14 +1,17 @@
 ---
 name: dental-education-training
 description: >
-  치과 구강 스캐너 및 치과 디지털 워크플로우 관련 교육 프로그램·콘텐츠·매뉴얼·트레이닝 자료를 기획·제작하는 전문 스킬.
-  교육 자료 제작, 트레이닝 프로그램 설계, 매뉴얼 작성, 사용자 교육, 딜러 교육, 임상 교육, 온보딩
-  관련 요청 시 반드시 이 스킬을 사용한다. (실제 회의록 작성·CLOVA 전사본 변환은 `inno3d-meeting-processing` 담당)
-  키워드: 교육, training, 트레이닝, 매뉴얼, 온보딩, 치과 교육, dental education, 임상 교육,
-  딜러 교육, how-to, 교육 콘텐츠, 내부 문서, Densflo 사용법, 치과위생사 교육
+  구강 스캐너·디지털 워크플로우의 **교육 과정과 교재를 설계**하는 스킬.
+    담당: 교육 커리큘럼, 실습 매뉴얼, 딜러 교육 자료, 치과위생사·기공사 대상 교육, 신규 사용자 온보딩 절차, 사용법 How-to 문서.
+    쓰지 않는 경우: 회의 녹취 정리는 `inno3d-meeting-processing`,
+    개별 고객의 장애 1건 대응은 `dental-technical-support`.
+    교재에 인용하는 스펙·인증·가격은 `inno3d-dental-master`의 확정값만 사용한다(대외 배포 가능성 전제).
 ---
 
 # Dental Education & Training Skill (이노쓰리디 맞춤)
+
+> **스킬 선택 기준** — 이 스킬이 담당하는 것: 교육 과정·교재 설계.
+> 아래에 해당하면 이 스킬 대신 그쪽을 쓴다: `inno3d-meeting-processing`(회의록) · `dental-technical-support`(개별 장애 대응)
 
 ## 컨텍스트
 - 담당: 김민선 과장 (교육 직접 담당)

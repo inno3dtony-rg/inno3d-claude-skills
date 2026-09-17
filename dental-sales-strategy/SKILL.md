@@ -1,14 +1,17 @@
 ---
 name: dental-sales-strategy
 description: >
-  치과 구강 스캐너 및 치과 장비의 B2B·B2C 영업 전략을 온라인·오프라인 채널 모두에 걸쳐 수립·실행하는 전문 스킬.
-  영업 전략, 고객 발굴, 제안서 작성, 가격 협상, 채널 전략, 영업 기획, 파이프라인 관리, 고객 세그먼테이션,
-  MOQ 가격 정책, 딜러 계약, 수출 견적, 팔로업 이메일, 리드 관리 관련 요청 시 반드시 이 스킬을 사용한다.
-  키워드: 영업 전략, sales strategy, B2B 영업, 치과 영업, dental sales, 제안서, 가격 전략, 채널 전략,
-  딜러, distributor, DSO, 클리닉 영업, 구강 스캐너 판매, MOQ, EX-WORKS, 수출 가격, 팔로업, 리드, SIDEX
+  치과 구강 스캐너 **영업 실행 문서**를 만드는 스킬. 이미 접촉 중이거나 거래가 진행 중인 상대가 있을 때 사용한다.
+    담당: 제안서, 견적서, 가격·MOQ 협상 문구, 딜러 계약 조건, 팔로업 이메일, 리드·파이프라인 관리, 전시회 상담 및 리드 수집, ROI 계산.
+    쓰지 않는 경우: 아직 거래처가 없는 신규 시장·신규 파트너 발굴은 `dental-business-development`,
+    시장 규모·경쟁사 수치 조사는 `global-dental-market-analysis`,
+    불특정 다수용 홍보물·콘텐츠 제작은 `dental-marketing`.
 ---
 
 # Dental Sales Strategy Skill (이노쓰리디 맞춤)
+
+> **스킬 선택 기준** — 이 스킬이 담당하는 것: 이미 상대가 정해진 거래 문서.
+> 아래에 해당하면 이 스킬 대신 그쪽을 쓴다: `dental-business-development`(신규 발굴) · `global-dental-market-analysis`(수치 조사) · `dental-marketing`(불특정 다수 홍보물)
 
 ## 회사 컨텍스트
 - 회사: ㈜이노쓰리디 / 담당: 김민선 과장

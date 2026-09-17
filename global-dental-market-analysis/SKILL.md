@@ -1,13 +1,17 @@
 ---
 name: global-dental-market-analysis
 description: >
-  전 세계 치과 산업 및 구강 스캐너(Intraoral Scanner) 시장을 분석하고 인사이트를 도출하는 전문 스킬.
-  시장 규모·점유율·경쟁사·트렌드·지역별 분석·가격 분석·규제 현황, DSO 분석, 임상 데이터 해석 관련 요청 시 반드시 이 스킬을 사용한다.
-  키워드: 구강 스캐너, intraoral scanner, 치과 시장, dental market, 시장 분석, 경쟁사 분석, IOS,
-  3Shape, Medit, iTero, Dentsply, 치과 산업, CAGR, DSO, 글로벌 시장, 이란, 러시아, 일본, 아시아태평양
+  치과·구강 스캐너 시장의 **숫자와 출처가 있는 조사·분석**을 담당하는 스킬.
+    담당: 시장 규모, CAGR, 점유율, 경쟁사(3Shape·Medit·iTero·Dentsply 등) 스펙·가격 비교, 국가별 인허가 규제 현황, DSO 동향, 임상 논문 수치 해석.
+    모든 수치는 출처와 조사시점을 함께 제시하고, 확인되지 않으면 [확인 필요]로 표기한다.
+    쓰지 않는 경우: 조사한 수치를 넣어 만드는 영업 문서는 `dental-sales-strategy`,
+    특정 국가 진입 실행 계획은 `dental-business-development`.
 ---
 
 # Global Dental Market Analysis Skill (이노쓰리디 맞춤)
+
+> **스킬 선택 기준** — 이 스킬이 담당하는 것: 출처 있는 시장 수치 조사.
+> 아래에 해당하면 이 스킬 대신 그쪽을 쓴다: `dental-sales-strategy`(수치를 쓰는 영업 문서) · `dental-business-development`(진입 실행 계획)
 
 ## 분석 컨텍스트
 - 담당: 김민선 과장 (이노쓰리디)
