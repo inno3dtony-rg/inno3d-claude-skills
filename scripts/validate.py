@@ -87,6 +87,37 @@ for p in SKILLS:
             fails.append(f"[{p.parent.name}] 알 수 없는 스킬명 참조: {m}")
         checks += 1
 
+# 13. 본문 감사 항목 — 실제로 발견된 결함 유형의 재발 방지
+ALLMD = sorted(list(ROOT.glob("*/SKILL.md")) + list(ROOT.glob("*/references/*.md")))
+
+for p_ in ALLMD:
+    tx = p_.read_text(encoding="utf-8")
+    rel = p_.relative_to(ROOT)
+    # 13a. 사용자 반말 호칭 금지 (meeting-processing 의 자체 규칙과 일관되게)
+    for bad in ["민선이 ", "민선의 ", "민선은 "]:
+        chk(bad not in tx, f"[{rel}] 반말 호칭 사용 금지", bad.strip())
+    # 13b. 동봉되지 않은 파일을 단정적으로 참조하지 않기
+    for m in re.findall(r'([A-Za-z0-9_가-힣\-]+\.(?:docx|xlsx|pptx|pdf))', tx):
+        exists = any(ROOT.rglob(m))
+        if not exists:
+            idx = tx.find(m)
+            window = tx[max(0,idx-200):idx+200]
+            chk("확인 필요" in window or "동봉" in window or "업로드를 요청" in window,
+                f"[{rel}] 없는 파일 {m} 은 [확인 필요] 표기 필요")
+    # 13c. 마크다운 구조
+    chk(tx.count("```") % 2 == 0, f"[{rel}] 코드펜스 짝 맞음")
+    chk("\ufffd" not in tx, f"[{rel}] 인코딩 정상")
+
+# 14. 날짜가 붙은 '현황' 표에는 시점 주의 문구가 있어야 함
+sales = ROOT/"inno3d-dental-master"/"references"/"sales.md"
+if sales.exists():
+    st = sales.read_text(encoding="utf-8")
+    chk("현재형으로 쓰지 않는다" in st or "스냅샷" in st,
+        "[sales.md] 딜러 현황에 시점 주의 문구 존재")
+
+# 15. 마스터에 신선도 규칙 존재
+chk("정보 신선도 규칙" in mt, "[master] 정보 신선도 규칙 섹션")
+
 print(f"검사 {checks}건 실행")
 if fails:
     print(f"\n❌ 실패 {len(fails)}건")

@@ -11,7 +11,7 @@ Primary Blue #0078D8 | Navy #182838 | Deep Navy #0A0E1A | White #FFFFFF
 
 ## 채널별 전략
 - 유튜브: @INNO3Dmarketing (제품시연·임상케이스)
-- 전시회: SIDEX완료 / 두바이·뉴욕·IDS 예정
+- 전시회: SIDEX 2026 완료 / 두바이(AEEDC)·뉴욕·IDS 예정 — [확인 필요] 각 행사 연도·참가 확정 여부는 사용자 확인 후 기재
 - 리플렛: 한/영/일 3개국어 완료
 
 ## AI 이미지 프롬프트 (Scan 시각화)

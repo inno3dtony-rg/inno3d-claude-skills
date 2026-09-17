@@ -14,5 +14,7 @@
 | 터키 | ÜTS 등록 | IFU·DoC·EC REP·GS1 GTIN |
 | 일본 | PMDA Class II | 현지딜러경유 여부 |
 
-## 인보이스 템플릿 위치
-프로젝트 파일: Commercial_Invoice_Intraoral_Scanner.docx
+## 인보이스 템플릿
+[확인 필요] `Commercial_Invoice_Intraoral_Scanner.docx` 는 이 스킬 폴더에 동봉되어 있지 않다.
+담당자 로컬 또는 사내 공유 드라이브에 있으므로, 파일이 필요하면 사용자에게 업로드를 요청한다.
+스킬이 이 파일을 자동으로 열 수 있다고 가정하지 않는다.
