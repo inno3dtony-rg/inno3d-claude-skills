@@ -76,9 +76,12 @@ cited = set(re.findall(r'`(dental-[a-z\-]+|inno3d-[a-z\-]+|global-dental-[a-z\-]
 chk(cited <= folders, "[master] 라우팅이 존재하는 스킬만 참조", str(sorted(cited-folders)))
 
 # 12. 타 스킬 위임 대상이 실제 계정 스킬인가
-KNOWN = {"docx","xlsx","pptx","pdf","brand","banner-design","design","design-system",
-         "web-artifacts-builder","academy-guide","learn","internal-comms","deep-research",
-         "brand-guidelines","canvas-design","ui-styling","ui-ux-pro-max","slides"} | folders
+_acct = ROOT/"scripts"/"account-skills.txt"
+KNOWN = set()
+if _acct.exists():
+    KNOWN = {ln.strip() for ln in _acct.read_text(encoding="utf-8").splitlines()
+             if ln.strip() and not ln.startswith("#")}
+KNOWN = KNOWN | folders
 for p in SKILLS:
     t = p.read_text(encoding="utf-8")
     for m in re.findall(r'`([a-z][a-z0-9\-]{3,})`', t):
