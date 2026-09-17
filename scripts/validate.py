@@ -4,7 +4,13 @@ import re, sys, pathlib, collections
 try: import yaml
 except ImportError: print("pyyaml 필요"); sys.exit(2)
 
-ROOT = pathlib.Path(__file__).parent
+# 저장소 루트 탐색: 스크립트 위치 또는 그 상위 중 SKILL.md가 있는 곳
+def _find_root(start):
+    for cand in [start, start.parent]:
+        if list(cand.glob("*/SKILL.md")):
+            return cand
+    return start
+ROOT = _find_root(pathlib.Path(__file__).resolve().parent)
 SKILLS = sorted(p for p in ROOT.glob("*/SKILL.md"))
 fails, checks = [], 0
 
