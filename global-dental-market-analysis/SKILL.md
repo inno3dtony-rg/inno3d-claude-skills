@@ -1,11 +1,9 @@
 ---
 name: global-dental-market-analysis
 description: >
-  치과·구강 스캐너 시장의 **숫자와 출처가 있는 조사·분석**을 담당하는 스킬.
-    담당: 시장 규모, CAGR, 점유율, 경쟁사(3Shape·Medit·iTero·Dentsply 등) 스펙·가격 비교, 국가별 인허가 규제 현황, DSO 동향, 임상 논문 수치 해석.
-    모든 수치는 출처와 조사시점을 함께 제시하고, 확인되지 않으면 [확인 필요]로 표기한다.
-    쓰지 않는 경우: 조사한 수치를 넣어 만드는 영업 문서는 `dental-sales-strategy`,
-    특정 국가 진입 실행 계획은 `dental-business-development`.
+  치과·구강 스캐너 시장의 **숫자와 출처가 있는 조사 결과**를 산출하는 스킬.
+    담당: 시장 규모, CAGR, 점유율, 경쟁사(3Shape·Medit·iTero·Dentsply) 스펙·가격 비교표, 국가별 인허가 규제 현황, DSO 동향, 임상 논문 수치 해석. 모든 수치에 출처와 조사시점을 붙이고, 미확인 값은 [확인 필요]로 표기한다.
+    넘길 곳: 여러 출처를 훑는 장문 리서치 보고서 작성은 `deep-research`(이 스킬은 치과 도메인 수치 해석 담당), 조사 수치를 넣어 만드는 영업 문서는 `dental-sales-strategy`, 특정 국가 진입 실행 계획은 `dental-business-development`.
 ---
 
 # Global Dental Market Analysis Skill (이노쓰리디 맞춤)

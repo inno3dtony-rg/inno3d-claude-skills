@@ -1,11 +1,10 @@
 ---
 name: dental-education-training
 description: >
-  구강 스캐너·디지털 워크플로우의 **교육 과정과 교재를 설계**하는 스킬.
-    담당: 교육 커리큘럼, 실습 매뉴얼, 딜러 교육 자료, 치과위생사·기공사 대상 교육, 신규 사용자 온보딩 절차, 사용법 How-to 문서.
-    쓰지 않는 경우: 회의 녹취 정리는 `inno3d-meeting-processing`,
-    개별 고객의 장애 1건 대응은 `dental-technical-support`.
-    교재에 인용하는 스펙·인증·가격은 `inno3d-dental-master`의 확정값만 사용한다(대외 배포 가능성 전제).
+  이노쓰리디 **제품(Densflo 구강 스캐너)과 치과 디지털 워크플로우 교육**을 설계하는 스킬. 교육 대상은 딜러·치과 종사자다.
+    담당: 제품 교육 커리큘럼, 실습 매뉴얼, 딜러 교육 자료, 치과위생사·기공사 교육, 신규 사용자 온보딩 절차, 제품 사용법 How-to.
+    넘길 곳: Claude·AI 도구 사용법 학습은 `academy-guide`, 일반 지식 학습·개념 설명은 `learn`, 회의 녹취 정리는 `inno3d-meeting-processing`, 개별 고객 장애 1건 대응은 `dental-technical-support`.
+    교재에 넣는 스펙·인증·가격은 `inno3d-dental-master`의 확정값만 쓴다.
 ---
 
 # Dental Education & Training Skill (이노쓰리디 맞춤)

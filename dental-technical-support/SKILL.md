@@ -1,11 +1,9 @@
 ---
 name: dental-technical-support
 description: >
-  **고객·딜러에게 나가는 기술 대응**을 담당하는 스킬.
+  **고객·딜러에게 나가는 기술 대응 내용**을 만드는 스킬.
     담당: 트러블슈팅 절차, 에러 코드 대응, AS 프로세스, 기술 FAQ, 스캔 품질·정확도 이슈 설명, 캘리브레이션 안내, 임상 평가 기준 설계, 보철 리메이크 원인 분석.
-    쓰지 않는 경우: 같은 현상이라도 **사내 개발팀에 넘길 정량 지표**로 바꾸는 일은 `inno3d-clinical-dev-bridge`(고객용과 개발용을 한 문서에 섞지 않는다),
-    실제 .xlsx 파일 생성은 공식 `xlsx` 스킬,
-    교육 커리큘럼·매뉴얼 설계는 `dental-education-training`.
+    넘길 곳: 같은 현상을 **사내 개발팀용 정량 지표**로 바꾸는 일은 `inno3d-clinical-dev-bridge`(고객용과 개발용을 한 문서에 섞지 않는다), 실제 .xlsx 파일 생성은 `xlsx`, 교육 커리큘럼 설계는 `dental-education-training`.
 ---
 
 # Dental Technical Support Skill (이노쓰리디 맞춤)

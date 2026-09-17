@@ -1,11 +1,9 @@
 ---
 name: dental-sales-strategy
 description: >
-  치과 구강 스캐너 **영업 실행 문서**를 만드는 스킬. 이미 접촉 중이거나 거래가 진행 중인 상대가 있을 때 사용한다.
-    담당: 제안서, 견적서, 가격·MOQ 협상 문구, 딜러 계약 조건, 팔로업 이메일, 리드·파이프라인 관리, 전시회 상담 및 리드 수집, ROI 계산.
-    쓰지 않는 경우: 아직 거래처가 없는 신규 시장·신규 파트너 발굴은 `dental-business-development`,
-    시장 규모·경쟁사 수치 조사는 `global-dental-market-analysis`,
-    불특정 다수용 홍보물·콘텐츠 제작은 `dental-marketing`.
+  치과 구강 스캐너 **영업 실행 문서의 내용**을 만드는 스킬. 이미 접촉 중인 상대(치과·기공소·딜러·해외 바이어)가 있을 때 쓴다.
+    담당: 제안서 내용, 견적 조건, 가격·MOQ 협상 문구, 딜러 계약 조건, 국가별 수출 견적(이란·러시아·터키·일본 등 거래 진행 중인 건), 팔로업 이메일 문안, 리드·파이프라인 관리, 전시회 상담 및 리드 수집, ROI 계산.
+    넘길 곳: 아직 거래처가 없는 신규 시장·파트너 발굴은 `dental-business-development`, 시장 규모·경쟁사 수치 조사는 `global-dental-market-analysis`, 불특정 다수용 홍보물은 `dental-marketing`, 사내 공지·내부 보고 메일은 `internal-comms`.
 ---
 
 # Dental Sales Strategy Skill (이노쓰리디 맞춤)

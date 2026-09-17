@@ -46,6 +46,44 @@ description: >
 | 딜러 확장 전략 + 실제 계약 협상이 동시에 필요 | 전략 단계는 `dental-business-development`, 구체적 가격·조건 협상 문구는 `dental-sales-strategy` | 전자는 방향, 후자는 실행 문서 |
 | 특강·딜러교육 자료에 제품 스펙 인용 | `dental-education-training`이 메인, 인증·가격 수치는 반드시 위 "핵심 컨텍스트" 확정값만 사용 | 교육자료가 대외 배포되면 컴플라이언스 문서와 동일한 기준 적용 |
 
+## 스킬 조합 규칙 — 겹치지 않으면서 동시에 적용하기
+
+스킬은 **역할이 다르면 같이 쓴다.** 하나만 골라야 하는 것이 아니다.
+
+| 역할 | 담당 | 예시 |
+|---|---|---|
+| **① 내용** — 무엇을 쓸 것인가 | 이노쓰리디 스킬 9개 | 견적 조건, 교육 커리큘럼, 트러블슈팅 절차 |
+| **② 형식** — 어떤 파일로 낼 것인가 | 공식 스킬 `docx`·`xlsx`·`pptx`·`pdf` | .docx / .xlsx / .pptx / PDF 생성 |
+| **③ 시각물** — 어떻게 보이게 할 것인가 | `design`·`banner-design`·`brand`·`canvas-design` | 로고, 배너, 브랜드 컬러 |
+
+**조합 예시 (①+② 또는 ①+③이 정상 동작이다)**
+
+| 요청 | 함께 적용할 스킬 |
+|---|---|
+| "딜러 교육자료 PPT로 만들어줘" | `dental-education-training`(내용) + `pptx`(파일) |
+| "회의록 워드로 정리해줘" | `inno3d-meeting-processing`(내용) + `docx`(파일) |
+| "러시아 견적서 엑셀로" | `dental-sales-strategy`(내용) + `xlsx`(파일) |
+| "전시회 배너 만들어줘" | `dental-marketing`(문구) + `banner-design`(이미지) |
+| "경쟁사 비교표 PPT" | `global-dental-market-analysis`(수치) + `pptx`(파일) |
+
+**금지 조합** — 대상이 다르므로 한 문서에 섞지 않는다.
+
+| 섞지 말 것 | 이유 |
+|---|---|
+| `dental-technical-support` + `inno3d-clinical-dev-bridge` | 고객용은 확정된 해결책만, 개발용은 미확정 측정값 포함 — 노출 수위가 다름 |
+| `inno3d-meeting-processing` + `inno3d-admin-docs` | 회의록과 결재문서를 합치면 상신 시 반려 위험 — 회의록 먼저, 지출 건은 별도 문서 |
+
+**이노쓰리디 스킬이 나서지 않는 영역** — 아래는 해당 전용 스킬에 맡긴다.
+
+| 요청 유형 | 담당 |
+|---|---|
+| Claude·AI 도구 사용법 | `academy-guide` |
+| 일반 지식·개념 학습 | `learn` |
+| 사내 공지·내부 보고 메일 | `internal-comms` |
+| 여러 출처 장문 리서치 보고서 | `deep-research` |
+| 브랜드 컬러·타이포 시스템 | `brand` (Anthropic용 `brand-guidelines`와 혼동 금지) |
+| 랜딩페이지·웹 구현 | `web-artifacts-builder` |
+
 ## 대외 문서 정보 노출 기준 (모든 하위 스킬에 적용)
 
 아래 항목은 **사내 문서에만** 쓰고, 고객·딜러·외부로 나가는 문서에는 옮기지 않는다.
